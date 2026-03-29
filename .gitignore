@@ -1,0 +1,35 @@
+# --- Секреты (САМОЕ ВАЖНОЕ) ---
+# Файлы, где лежат твои API токены и ключи Gemini
+tokens.py
+.env
+*.env
+config.py (если там токены)
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# --- Виртуальное окружение ---
+# Твоя папка .venv на Linux Mint
+.venv/
+venv/
+env/
+
+# --- Базы данных ---
+# Чтобы твои локальные тесты не улетали на GitHub
+*.sqlite3
+db.sqlite3
+
+# --- Настройки IDE ---
+# Папка настроек PyCharm
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# --- Системные файлы Linux ---
+.DS_Store
+.directory
+.trash/
